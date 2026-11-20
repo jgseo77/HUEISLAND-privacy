@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>색을 되찾는 섬 데이터 삭제 · Hue Island Data Deletion</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #edf5f7; color: #1f3340; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif; line-height: 1.7; -webkit-text-size-adjust: 100%; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 22px 80px; }
+  .card { background: #fbfeff; border-radius: 18px; border-top: 5px solid #3fb6d4; padding: 28px 24px; box-shadow: 0 6px 30px rgba(30, 90, 120, .12); }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; color: #12303f; letter-spacing: -0.01em; }
+  .sub { color: #557285; font-size: 0.9rem; margin-bottom: 8px; }
+  .meta { color: #6f8796; font-size: 0.82rem; margin-bottom: 28px; }
+  h2 { font-size: 1.12rem; margin: 34px 0 10px; color: #1d7f9c; }
+  p, li { font-size: 0.94rem; color: #273d4b; }
+  a { color: #1d7f9c; }
+  ul, ol { padding-left: 20px; }
+  li { margin: 4px 0; }
+  ol li { margin: 8px 0; }
+  .box { background: #e3f1f5; border-radius: 12px; padding: 12px 14px; margin: 12px 0; font-size: 0.94rem; color: #273d4b; }
+  hr { border: none; border-top: 1px solid #cfe3ea; margin: 46px 0; }
+  .lang-toggle { text-align: right; margin-bottom: 10px; }
+  .lang-toggle a { font-size: 0.85rem; color: #6f8796; text-decoration: none; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.9rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid #cfe3ea; color: #273d4b; }
+  th { color: #2f5466; font-size: 0.86rem; }
+  td:first-child { width: 36%; font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="lang-toggle"><a href="#en">English ▾</a></div>
+<div class="card" id="ko">
+<h1>색을 되찾는 섬 — 데이터 삭제</h1>
+<div class="sub">색을 되찾는 섬 (Hue Island: Color Journey)</div>
+<div class="meta">개발자: HYPERSPEED (하이퍼스피드) · 최종 수정일: 2026년 11월 20일</div>
+
+<p>색을 되찾는 섬은 회원가입 · 계정이 없고, 개발자가 운영하는 서버에 게임 기록을 두지 않습니다. 그래서 지울 “계정”이 따로 없고, 아래 방법으로 이용자가 직접 지울 수 있습니다.</p>
+
+<h2>삭제하는 방법</h2>
+<ol>
+  <li><b>게임 진행 기록(기기)</b> — 앱을 삭제하면 함께 지워집니다. 앱 안 설정(톱니바퀴) › [기록 지우기]를 두 번 눌러 진행 기록만 지울 수도 있습니다. Android는 앱을 지우지 않고 설정 › 애플리케이션 › 색을 되찾는 섬 › 저장공간 › 데이터 삭제로도 지울 수 있습니다.</li>
+  <li><b>Android 자동 백업</b> — 기기 백업이 켜져 있으면 다시 설치할 때 기록이 돌아올 수 있습니다. 설정 › Google › 백업에서 끄거나 백업을 삭제하세요.</li>
+  <li><b>분석 데이터(Google Analytics for Firebase)</b> — 이름 · 연락처 없이 앱 인스턴스 식별자로만 기록되며, 14개월이 지나면 Google에서 자동으로 삭제됩니다. 앱을 삭제하면 그 식별자도 기기에서 지워져 이후로는 이어지지 않습니다. 더 빨리 지우기를 원하시면 아래로 문의해 주세요.</li>
+  <li><b>문의</b> — 그 밖의 삭제 문의는 <a href="mailto:contact@hyperspeedgames.com">contact@hyperspeedgames.com</a> 으로 제목 「색을 되찾는 섬 데이터 삭제 문의」로 보내 주세요. 받은 날로부터 30일 안에 회신합니다.</li>
+</ol>
+
+<h2>지워지는 것과 남는 것</h2>
+<table>
+  <tr><th>데이터</th><th>처리</th></tr>
+  <tr><td>게임 진행 기록(깬 판 · 최고 기록 · 도감의 만남 · 지도 연출 · 모든 장 열기 여부)과 설정</td><td>기기에만 있습니다. 앱 삭제 또는 데이터 삭제로 즉시 삭제됩니다.</td></tr>
+  <tr><td>구매 기록</td><td>App Store · Google Play가 이용자 계정에 보관합니다(개발자는 보관하지 않음). 기록을 지운 뒤나 다시 설치한 뒤에도 스토어에서 구매를 복원할 수 있습니다.</td></tr>
+  <tr><td>분석 데이터</td><td>Google이 14개월 보관한 뒤 자동 삭제합니다.</td></tr>
+  <tr><td>계정 · 이름 · 연락처</td><td>본 앱은 수집하지 않습니다.</td></tr>
+</table>
+<p>자세한 내용은 <a href="index.html">개인정보 처리방침</a>을 참고해 주세요.</p>
+</div>
+
+<hr>
+<div class="lang-toggle"><a href="#ko">한국어 ▴</a></div>
+<div class="card" id="en" lang="en">
+<h1>Hue Island — Data deletion</h1>
+<div class="sub">Hue Island: Color Journey (Korean title 색을 되찾는 섬)</div>
+<div class="meta">Developer: HYPERSPEED · Last updated: November 20, 2026</div>
+
+<p>Hue Island has no sign-up or account, and the Developer keeps no game records on any server of its own. So there is no “account” to delete; you can delete your data yourself as follows.</p>
+
+<h2>How to delete</h2>
+<ol>
+  <li><b>Game progress (on your device)</b> — deleted when you delete the App. You can also erase just your progress in the App's Settings (the gear) › [Erase progress], tapped twice. On Android you can also clear it without uninstalling: Settings › Apps › Hue Island › Storage › Clear data.</li>
+  <li><b>Android Auto Backup</b> — if device backup is on, your progress may come back when you reinstall. Turn it off or delete the backup in Settings › Google › Backup.</li>
+  <li><b>Analytics data (Google Analytics for Firebase)</b> — recorded only under an app instance identifier, with no name or contact details, and deleted automatically by Google after 14 months. Deleting the App removes that identifier from your device, so nothing is linked to it afterwards. To have it deleted sooner, contact us below.</li>
+  <li><b>Contact</b> — for any other deletion request, email <a href="mailto:contact@hyperspeedgames.com">contact@hyperspeedgames.com</a> with the subject “Hue Island data deletion”. We reply within 30 days of receiving it.</li>
+</ol>
+
+<h2>What is deleted and what remains</h2>
+<table>
+  <tr><th>Data</th><th>Handling</th></tr>
+  <tr><td>Game progress (cleared stages · best times · Collection encounters · World Map scenes · whether all chapters are unlocked) and settings</td><td>On your device only. Deleted at once when you delete the App or clear its data.</td></tr>
+  <tr><td>Purchase record</td><td>Kept by the App Store · Google Play in your own account (not by the Developer). You can restore the purchase from the store after erasing or reinstalling.</td></tr>
+  <tr><td>Analytics data</td><td>Kept by Google for 14 months, then deleted automatically.</td></tr>
+  <tr><td>Account · name · contact details</td><td>Not collected by the App.</td></tr>
+</table>
+<p>See the <a href="index.html#en">Privacy Policy</a> for details.</p>
+</div>
+</div>
+</body>
+</html>
